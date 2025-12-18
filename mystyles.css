@@ -5,6 +5,7 @@ html{
     --color4: #E3E3E3;
     font-family: verdana, arial;
     background-color: var(--color4);
+    opacity: 1;
 }
 
 body{
@@ -15,6 +16,14 @@ body{
 
 .maintitle{
     color: var(--color2);
+}
+
+main{  
+    transition: transform 1.5s ease,opacity 1.2s ease;
+    @starting-style{
+        opacity: 0.2;
+        transform: translateY(25px);
+    }
 }
 
 header{
@@ -68,6 +77,12 @@ body header h1{
 }
 
 footer{
+    transition: transform 1s ease,opacity 1s ease;
+    transition-delay: 0.5s;
+    @starting-style{
+        opacity: 0;
+        transform: translateY(15px);
+    }
     border-top: solid;
     border-color: var(--color2);
 }
