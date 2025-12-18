@@ -1,24 +1,29 @@
+@font-face{
+    src: url(fonts/LeagueSpartan-VariableFont_wght.ttf);
+    font-family: LeagueSpartan;
+}
+
 html{
     --color1: #1e435d;
     --color2: #153043;
     --color3: #456882;
     --color4: #E3E3E3;
-    font-family: verdana, arial;
-    background-color: var(--color4);
-    opacity: 1;
+    font-family: LeagueSpartan;
+    font-size: 20px;
 }
 
 body{
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    background-color: var(--color4);
 }
 
 .maintitle{
     color: var(--color2);
 }
 
-main{  
+main{
     transition: transform 1.5s ease,opacity 1.2s ease;
     @starting-style{
         opacity: 0.2;
@@ -73,7 +78,8 @@ body header h1{
 }
 
 .navbar a.current{
-    color: var(--color3);
+    background-color: var(--color1);
+    border-radius: 1.5em;
 }
 
 footer{
