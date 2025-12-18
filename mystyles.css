@@ -39,15 +39,24 @@ header{
 }
 
 .navbar {
+    margin-top: 10px;
     margin-bottom: 40px;
     margin-left: 40px;
     margin-right: 100px;
-    background-color: var(--color2);
     padding: 9px;
-    border-style:solid;
-    border-radius: 0.9em;
-    border-width: 5px;
-    border-color: var(--color3);
+    border-top: solid;
+    border-bottom: solid;
+    border-top-style: ridge;
+    border-bottom-style: ridge;
+    border-color: var(--color2);
+}
+
+p{
+    color: var(--color1);
+}
+
+h2{
+    color: var(--color2)
 }
 
 .navbar ul{
@@ -65,7 +74,7 @@ header{
 }
 
 .navbar a{
-    color: var(--color4);
+    color: var(--color3);
     padding: 8px;
     display: block;
     text-decoration: none;
@@ -79,6 +88,7 @@ header{
 
 .navbar a.current{
     background-color: var(--color1);
+    color: var(--color4);
     border-radius: 1.5em;
 }
 
@@ -89,6 +99,6 @@ footer{
         opacity: 0;
         transform: translateY(15px);
     }
-    border-top: solid;
+    border-top: ridge;
     border-color: var(--color2);
 }
