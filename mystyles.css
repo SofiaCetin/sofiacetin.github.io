@@ -98,6 +98,12 @@ main{
     border-color: var(--color3);
     color: var(--color2);
     opacity: 0.9;
+    margin-left: 25px;
+}
+
+.parcours dd{
+    font-size: smaller;
+    font-style: italic;
 }
 
 .dates{
