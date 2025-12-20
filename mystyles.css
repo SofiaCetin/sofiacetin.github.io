@@ -23,59 +23,10 @@ header{
     margin-top: 30px;
 }
 
-h1{
+.main_title{
     color: var(--color2);
     display: inline-block;
     text-align: center;
-}
-
-nav{
-    margin-top: 10px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    margin-right: 100px;
-    padding: 9px;
-    border-top: solid;
-    border-bottom: solid;
-    border-width: 3px;
-    border-color: var(--color3);
-}
-
-nav ul{
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-    cursor: default;
-}
-
-nav li{
-    display: inline-block;
-    margin-left: 20px;
-    transition: transform 0.2s ease;
-}
-
-nav a{
-    color: var(--color3);
-    padding: 8px;
-    display: block;
-    text-decoration: none;
-}
-
-nav li:hover{
-    background-color: var(--color1);
-    border-radius: 1.5em;
-    transform: scale(1.05) translateY(-5px);
-}
-
-nav a:hover{
-    color: var(--color4);
-}
-
-nav a.current{
-    background-color: var(--color1);
-    color: var(--color4);
-    border-radius: 1.5em;
 }
 
 main{
@@ -87,14 +38,70 @@ main{
     }
 }
 
-h2{
+.main_nav{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 100px;
+    padding: 9px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: var(--color3);
+}
+
+.main_nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    cursor: default;
+}
+
+.main_nav li{
+    display: inline-block;
+    margin-left: 20px;
+    transition: transform 0.2s ease;
+}
+
+.main_nav a{
+    color: var(--color3);
+    padding: 8px;
+    display: block;
+    text-decoration: none;
+}
+
+.main_nav li:hover{
+    background-color: var(--color1);
+    border-radius: 1.5em;
+    transform: scale(1.05) translateY(-5px);
+}
+
+.main_nav a:hover{
+    color: var(--color4);
+}
+
+.main_nav a.current{
+    background-color: var(--color1);
+    color: var(--color4);
+    border-radius: 1.5em;
+}
+
+.subtitles{
     color: var(--color2);
 }
 
-main ul{
+.parcours{
     list-style-type: none;
     border-left: solid;
     border-color: var(--color3);
+    color: var(--color2);
+    opacity: 0.9;
+}
+
+.dates{
+    color: var(--color2);
+    font-weight: 600;
 }
 
 p{
