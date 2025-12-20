@@ -4,6 +4,7 @@
 }
 
 html{
+    scrollbar-gutter: stable;
     --color1: #1e435d;
     --color2: #153043;
     --color3: #456882;
