@@ -112,8 +112,29 @@ main{
 }
 
 .projets{
-    font-size: larger;
     list-style-type: disc;
+}
+
+.project_name{
+    color: var(--color2);
+    font-weight: 600;
+    font-size: larger;
+}
+
+.projets p{
+    margin-left: 25px;
+    color: var(--color1);
+}
+
+.projets a{
+    font-weight: 600;
+    color: var(--color2);
+    font-size: smaller;
+    margin-left: 25px;
+}
+
+.projets a:hover{
+    color: var(--color3);
 }
 
 p{
@@ -123,7 +144,6 @@ p{
 p a{
     text-decoration: none;
     font-weight: 600;
-    transition: transform 0.2 ease;
     color: var(--color2);
 }
 
@@ -140,9 +160,6 @@ footer{
     }
     border-top: solid;
     border-color: var(--color3);
-}
-
-footer{
     font-size: smaller;
     font-style: oblique;
 }
