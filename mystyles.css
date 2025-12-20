@@ -111,6 +111,11 @@ main{
     font-weight: 600;
 }
 
+.projets{
+    font-size: larger;
+    list-style-type: disc;
+}
+
 p{
     color: var(--color1);
 }
