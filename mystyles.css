@@ -55,6 +55,17 @@ p{
     color: var(--color1);
 }
 
+p a{
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.2 ease;
+    color: var(--color2);
+}
+
+p a:hover{
+    color: var(--color3);
+}
+
 h2{
     color: var(--color2)
 }
@@ -84,6 +95,10 @@ h2{
     background-color: var(--color1);
     border-radius: 1.5em;
     transform: scale(1.05) translateY(-5px);
+}
+
+.navbar a:hover{
+    color: var(--color4);
 }
 
 .navbar a.current{
