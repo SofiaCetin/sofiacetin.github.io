@@ -29,7 +29,7 @@ h1{
     text-align: center;
 }
 
-nav {
+nav{
     margin-top: 10px;
     margin-bottom: 40px;
     margin-left: 40px;
@@ -37,9 +37,8 @@ nav {
     padding: 9px;
     border-top: solid;
     border-bottom: solid;
-    border-top-style: ridge;
-    border-bottom-style: ridge;
-    border-color: var(--color2);
+    border-width: 3px;
+    border-color: var(--color3);
 }
 
 nav ul{
@@ -92,6 +91,12 @@ h2{
     color: var(--color2);
 }
 
+main ul{
+    list-style-type: none;
+    border-left: solid;
+    border-color: var(--color3);
+}
+
 p{
     color: var(--color1);
 }
@@ -114,6 +119,6 @@ footer{
         opacity: 0;
         transform: translateY(15px);
     }
-    border-top: ridge;
-    border-color: var(--color2);
+    border-top: solid;
+    border-color: var(--color3);
 }
