@@ -111,8 +111,9 @@ main{
     font-weight: 600;
 }
 
-.projets{
+.projets, .liens{
     list-style-type: disc;
+    color: var(--color2);
 }
 
 .project_name{
@@ -141,14 +142,22 @@ p{
     color: var(--color1);
 }
 
-p a{
+p a, .liens li a{
     text-decoration: none;
     font-weight: 600;
     color: var(--color2);
 }
 
-p a:hover{
+p a:hover, .liens li a:hover{
     color: var(--color3);
+}
+
+.liens{
+    column-count: 2;
+}
+
+.liens li{
+    margin-bottom: 10px;
 }
 
 footer{
