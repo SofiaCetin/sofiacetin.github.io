@@ -2,8 +2,7 @@ pages:
     tags:
     - pages
     script:
-    - apk add --no-cache bash make
-    - make
+    - sh scripts/buildsite.sh
     artifacts:
         paths:
         - public
