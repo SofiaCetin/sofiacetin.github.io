@@ -2,7 +2,7 @@ pages:
     tags:
     - pages
     script:
-    - sh scripts/buildsite.sh
+    - sh scripts/buildpage.sh
     artifacts:
         paths:
         - public
