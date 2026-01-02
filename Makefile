@@ -10,7 +10,7 @@ public/%.html: pages/%.html layout/before.html layout/after.html
 
 public: $(ASSETS)
 	mkdir -p public
-	cp -u $^ public/
+	cp -r assets/* public/
 	touch public
 
 clean:
