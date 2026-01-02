@@ -1,0 +1,10 @@
+pages:
+    tags:
+    - pages
+    script:
+    - sh scripts/buildsite.sh
+    artifacts:
+        paths:
+        - public
+    only:
+    - main
