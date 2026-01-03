@@ -113,6 +113,7 @@ main{
 .dates{
     color: var(--color2);
     font-weight: 600;
+    margin: 0;
 }
 
 .projets, .liens{
