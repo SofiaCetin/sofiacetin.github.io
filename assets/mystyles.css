@@ -125,6 +125,7 @@ main{
     color: var(--color2);
     font-weight: 600;
     font-size: larger;
+    margin: 0;
 }
 
 .projets p{
