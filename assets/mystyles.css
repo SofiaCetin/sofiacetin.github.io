@@ -101,6 +101,10 @@ main{
     margin-left: 25px;
 }
 
+.parcours li{
+    margin-bottom: 2px;
+}
+
 .parcours dd{
     font-size: smaller;
     font-style: italic;
@@ -136,6 +140,10 @@ main{
 
 .projets a:hover{
     color: var(--color3);
+}
+
+.projets li{
+    margin-bottom: 2px;
 }
 
 p{
