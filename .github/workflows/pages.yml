@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  SCRIPTS_PATH : ../../scripts/
+  SCRIPTS_PATH : ../../scripts
 
 permissions:
   contents: read
