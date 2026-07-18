@@ -3,7 +3,10 @@ name: Deploy GitHub Pages
 on:
   push:
     branches:
-      - master   # remplace par "main" si nécessaire
+      - master
+
+env:
+  SCRIPTS_PATH : ../../scripts/
 
 permissions:
   contents: read
@@ -18,10 +21,10 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Donner les droits d'exécution
-        run: chmod +x scripts/buildsite.sh scripts/buildpage.sh
+        run: chmod +x ${SCRIPTS_PATH}/buildsite.sh ${SCRIPTS_PATH}/buildpage.sh
 
       - name: Construire le site
-        run: ./scripts/buildsite.sh
+        run: ${SCRIPTS_PATH}/buildsite.sh
 
       - name: Publier les fichiers
         uses: actions/upload-pages-artifact@v3
